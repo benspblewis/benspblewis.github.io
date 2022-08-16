@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {background-image: url(../images/pexels-idan-canfi-4752708\ \(1\).jpg); background-color: blue;
+    font-family: 'Noto Sans', sans-serif;
+    height: 100vh;
+  }
+  
+  .card {
+    align-items: center;
+    background-color: lightgray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 100px;
+    padding: 50px; opacity:95%;
+  }
+
+  .icons li {margin-left:30px;}
+  
+  .nav-item.index {
+    align-self: flex-end;
+    color: #3d6ded; text-align: center;
+  }
+  
+  .page-wrapper {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .profile-image {
+    border-radius: 50%;
+    height: 180px;
+    width: 180px; display:block;margin-top: 40%;
+  }
+  
+  nav li {border: 5px white solid; width: 15rem; font-size: 3rem; background-color: white; text-align:center; margin: 0; display: inline-block; width: 100%;}
+  
+  nav a { color: #2F3D40 ; text-decoration: none; display: block; width: 100%;}
+  
+  nav ul {list-style-type: none;width: 100%;}
+  nav {
+    position: fixed;
+      width: 100%;
+      left: 0;
+      bottom: 0;
+      background-color:white;
+      color: #2F3D40;
+      text-align: center; opacity: 90%; height: 3rem}
+  
+  nav a:hover {color: white; background-color:#2F3D40; top: 0;}
+  nav {top: 0; position: fixed; width: 100%; height: 2rem}
+  ul{list-style-type:none;
+    padding: 0; margin: 0; 
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around; width: 100%;} 
+    li {flex-basis: 100%; width: 100%;}
+    
+    
+    footer {
+      position: fixed;
+      width: 100%;
+      left: 0;
+      bottom: 0;
+      background-color:white;
+      color: #2F3D40;
+      text-align: center; opacity: 80%; height: 5rem}
+  
+  h1 {color:#2F3D40 ;}
+  h2 {color:#2F3D40;  text-align: center;}
+
+
+  aside {display: block;
+    margin-left: 16rem;
+    margin-right: auto;
+    width: 50%; margin-top: auto; padding-bottom: 7rem;}
+
+  button {margin-bottom: 8rem; justify-content: center;}
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .city {
+    display: none;
+    max-height: 600px;
+  }
+  
+  .active {
+    display: block;
+  }
+  
+  
+  
+  .btns {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem; opacity:80%;
+  }
+  
+  .btn {
+    background-color: white;
+    color: #2F3D40;
+    font-size: 20px;
+    padding: 5px 20px;
+    border-color: transparent;
+    cursor: pointer;
+    text-decoration: solid;
+  }
+  
+  .prev {
+    margin-right: 15px;
+  }
+
+  
+
+  
+  .btn:disabled {
+    background-color: #666;
+    cursor: not-allowed;
+  }
+
+  
+  fieldset {border: 1px solid black; margin-bottom: 2rem; text-align: center; background-color: white; opacity: 85%; color: red;}  
+  
+  label {display: block; text-align: center; padding: 0.4rem; color:#2F3D40; text-decoration: overline; font-weight: 700;} 
+  
+  textarea {height: 10rem; padding: 1rem; color: #2F3D40;font-weight: 650;}
+
+  .form-decrease {
+    padding: 1em;
+    margin: 0 auto;
+    display: flex;
+    text-align: center; justify-content: center;
+  }
+
+button {text-align: center; display: block; justify-content: center; font-size: 1.2rem;color: #2F3D40;font-weight: 650; margin-top: 1rem; margin-bottom: -0.08rem; margin:auto;}
+
+button:hover {background-color: #2F3D40; color: white}
+
+.about-me {padding-top: 10rem; margin-top: 0;}
+
+div h3 {background-color: ; display: inline; color:#2F3D40; text-align: center;}
+
+section {
+  align-items: center;
+  background-color: lightgray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 100px;
+} 
